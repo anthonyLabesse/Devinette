@@ -20,13 +20,18 @@ var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );
             if (reponse > solution){
               reponse = prompt(reponse + " est trop grand, veuillez saisir un autre nombre");
               }
-              else{
+              else if(reponse < solution){
               reponse = prompt(reponse + " est trop petit, veuillez saisir un autre nombre");
               }
+              else{
+              console.log("Bravo, La solution est " + solution + "et tu as deviné en" + i + "essais");  
+              }
+              
+              console.log("Dommage, La solution était " + solution + "Essaie encore !");
         }
-        console.log("Bravo, La solution est " + solution + "et tu as deviné en" + i + "essais");
+       
      }
-        console.log("Dommage, La solution était " + solution + "Essaie encore !");
+       
 
     
 
