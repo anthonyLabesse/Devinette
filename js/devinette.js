@@ -14,3 +14,4 @@ var solution = Math.floor(Math.random() * 100) + 1;
 //console.log("(La solution est " + solution + ")");
 
 // TODO : complétez le programme
+var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );
