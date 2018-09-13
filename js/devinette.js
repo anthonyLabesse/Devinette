@@ -15,3 +15,13 @@ var solution = Math.floor(Math.random() * 100) + 1;
 
 // TODO : complétez le programme
 var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );
+for(var i = 1; i<=6; i++){
+  if (reponse > solution){
+    reponse = prompt(reponse "est trop grand, veuillez saisir un autre nombre")
+  else if (reponse < solution){
+    reponse = prompt(reponse "est trop petit,veuillez saisir un autre nombre")
+  }
+  else{ 
+    console.log("(La solution est " + solution + ")");
+  }
+}
