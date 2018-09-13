@@ -15,8 +15,7 @@ var solution = Math.floor(Math.random() * 100) + 1;
 
 // TODO : complétez le programme
     for(var i = 1; i<=7; i++){ // Le jeu ne permet que six tentatives pour réussir la devinette
-        var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );
-        while(reponse !== solution){
+        var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );{
             if (reponse > solution){
               reponse = prompt(reponse + " est trop grand, veuillez saisir un autre nombre");
               }
@@ -28,8 +27,6 @@ var solution = Math.floor(Math.random() * 100) + 1;
               }
               
               console.log("Dommage, La solution était " + solution + "Essaie encore !");
-        }
-       
      }
        
 
