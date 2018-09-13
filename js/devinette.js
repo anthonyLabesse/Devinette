@@ -18,10 +18,10 @@ var reponse = prompt("Entrez un nombre compris entre 1 et 100 :" );
 while(reponse !== solution){
     for(var i = 1; i<=6; i++){// Le jeu ne permet que six tentatives pour réussir la devinette
       if (reponse > solution){
-      reponse = prompt("reponse + " est trop grand,veuillez saisir un autre nombre);
+      reponse = prompt(reponse + " est trop grand,veuillez saisir un autre nombre");
       }
       else{
-      reponse = prompt("reponse + " est trop petit,veuillez saisir un autre nombre);
+      reponse = prompt(reponse + " est trop petit,veuillez saisir un autre nombre");
       }
   }
 
